@@ -1,11 +1,7 @@
 <!-- EZZ MOHAMED — Premium self-hosted animated GitHub profile -->
 <div align="center">
 
-<img width="100%" src="./assets/ezz-wordmark.svg" alt="Ezz Mohamed — Software Developer and Founder. Animated introduction with his real photo." />
-
-<br />
-
-<img width="100%" src="./assets/ezz-identity.png" alt="I don't just build software. I think about the business behind it." />
+<img width="100%" src="./assets/ezz-identity.png" alt="Ezz Mohamed | Software Developer & Founder | Business Strategy and Product Engineering" />
 
 <br />
 
