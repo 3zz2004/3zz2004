@@ -111,7 +111,8 @@ def main():
     if not PHOTO.exists():
         raise RuntimeError("Missing user-supplied source photo; refusing avatar substitution")
     photo=Image.open(PHOTO).convert("RGB")
-    # Render the photo-first cover as true RGB PNG to avoid GIF skin-tone banding.\n    hero(photo, 0.57).save(ART/"ezz-identity.png", optimize=True)
+    # Render the photo-first cover as true RGB PNG to avoid GIF skin-tone banding.
+    hero(photo, 0.57).save(ART/"ezz-identity.png", optimize=True)
     # Keep the photograph in full RGB: GIF's 256-color palette damages skin texture.
     # Animate the supporting sections, but preserve a crisp photo-first hero.
     hero(photo,0.57).save(ART/"ezz-hero-photo-v2.png", optimize=True)
