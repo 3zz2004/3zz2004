@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="454" viewBox="0 0 1200 454" role="img" aria-label="EZZ MOHAMED — Software Developer, Founder, SaaS Builder. Think business. Build technology.">
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09110D"/><stop offset=".52" stop-color="#101B15"/><stop offset="1" stop-color="#0A110D"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5F976E"/><stop offset=".55" stop-color="#BDE5C1"/><stop offset="1" stop-color="#6DAE7B"/></linearGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#59735D" stroke-width=".65" opacity=".22"/></pattern>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#8BC99A" opacity=".23"/></pattern>
+  <clipPath id="frame"><rect width="1200" height="454" rx="20"/></clipPath>
+  <style>
+    @keyframes slide{to{stroke-dashoffset:-780}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+    @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes shine{0%{opacity:.1}35%{opacity:.85}75%{opacity:.15}100%{opacity:.1}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    .scan{animation:slide 7s linear infinite}
+    .pulse{animation:blink 2.1s ease-in-out infinite}
+    .float{animation:drift 4.5s ease-in-out infinite}
+    .soft{animation:shine 4.3s ease-in-out infinite}
+  </style>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="454" fill="url(#back)"/>
+<rect x="0" y="0" width="1200" height="454" fill="url(#grid)" opacity=".6"/>
+<rect x="760" y="75" width="440" height="340" fill="url(#dots)"/>
+<path d="M0 0H1200V454H0Z" fill="none" stroke="#496752" stroke-width="3"/>
+<path d="M52 72H1148" stroke="#36533E" stroke-width="1.5"/>
+<circle cx="66" cy="40" r="6" fill="#A8D8B0" class="pulse"/>
+<text x="85" y="46" fill="#A5BDA7" font-family="ui-monospace,Consolas,monospace" font-size="17" font-weight="600" letter-spacing="1.1">EZZ / THE BUILD SYSTEM</text>
+<text x="1149" y="46" text-anchor="end" fill="#90B99A" font-family="ui-monospace,Consolas,monospace" font-size="16" letter-spacing="1.2">BUILD MODE  /  ACTIVE</text>
+<rect x="57" y="119" width="5" height="217" fill="#8DCB9A"/>
+<text x="87" y="247" fill="#EDF8EE" font-family="Arial,Helvetica,sans-serif" font-size="151" font-weight="900" letter-spacing="-9">EZZ</text>
+<text x="78" y="356" fill="#B0DFBA" font-family="Arial,Helvetica,sans-serif" font-size="111" font-weight="900" letter-spacing="-6">MOHAMED</text>
+<text x="83" y="398" fill="#D8E8DA" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="1.45">SOFTWARE DEVELOPER  /  FOUNDER</text>
+<g class="float">
+<rect x="864" y="122" width="269" height="58" rx="10" fill="#16281C" stroke="#648E6D" stroke-width="1.5"/>
+<rect x="880" y="139" width="5" height="24" rx="2" fill="#BDE8C5"/>
+<text x="905" y="158" font-family="ui-monospace,monospace" font-size="18" font-weight="700" fill="#E4F4E5">01  ENGINEERING</text>
+</g>
+<rect x="885" y="201" width="248" height="58" rx="10" fill="#15251B" stroke="#50755A" stroke-width="1.5"/>
+<rect x="901" y="218" width="5" height="24" rx="2" fill="#89C899"/>
+<text x="924" y="237" font-family="ui-monospace,monospace" font-size="18" font-weight="700" fill="#DBECDD">02  PRODUCT</text>
+<g class="float" style="animation-delay:-1.5s">
+<rect x="862" y="280" width="271" height="58" rx="10" fill="#16281C" stroke="#648E6D" stroke-width="1.5"/>
+<rect x="878" y="297" width="5" height="24" rx="2" fill="#BDE8C5"/>
+<text x="901" y="316" font-family="ui-monospace,monospace" font-size="18" font-weight="700" fill="#E4F4E5">03  BUSINESS</text>
+</g>
+<path d="M836 151H816V308H837" fill="none" stroke="#73967B" stroke-width="2" stroke-dasharray="5 8" class="scan"/>
+<circle cx="816" cy="230" r="5" fill="#B8E7C0" class="pulse"/>
+<path d="M58 423H1143" stroke="#284B34" stroke-width="4"/>
+<path d="M58 423H1143" stroke="url(#accent)" stroke-width="4" stroke-dasharray="190 895" class="scan"/>
+<text x="1145" y="390" fill="#AAC5AF" font-family="ui-monospace,monospace" font-size="13" text-anchor="end" letter-spacing="1.1">THINK BUSINESS. BUILD TECHNOLOGY.</text>
+<path d="M0 0h1200v454H0Z" fill="none" stroke="#577E60" stroke-opacity=".5" stroke-width="3"/>
+</g>
+</svg>
