@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="244" viewBox="0 0 1000 244" role="img" aria-label="EZZ MOHAMED — Software, product, business">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1511"/><stop offset="1" stop-color="#111b17"/></linearGradient>
+  <linearGradient id="beam" x1="0" x2="1"><stop stop-color="#456750"/><stop offset=".48" stop-color="#a1d3ac"/><stop offset="1" stop-color="#456750"/></linearGradient>
+  <pattern id="mesh" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bd2a5" opacity=".055" stroke-width="1"/></pattern>
+  <clipPath id="textReveal"><rect x="48" y="50" height="142" width="0"><animate attributeName="width" from="0" to="875" begin=".25s" dur="1.65s" fill="freeze"/></rect></clipPath>
+</defs>
+<style>
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes dash{to{stroke-dashoffset:-260}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1000" height="244" rx="16" fill="url(#bg)"/>
+<rect width="1000" height="244" rx="16" fill="url(#mesh)"/>
+<rect x="1" y="1" width="998" height="242" rx="15" fill="none" stroke="#32463a"/>
+<path d="M32 32h42M32 32v24M968 211h-42M968 211v-24" stroke="#91cba0" stroke-width="2" fill="none" opacity=".8"/>
+<circle cx="53" cy="27" r="3" fill="#a5dcb0" style="animation:pulse 2s ease-in-out infinite"/>
+<text x="68" y="31" fill="#779985" font-size="12" font-family="monospace" letter-spacing="2">EZZ / ENGINEERING SYSTEMS</text>
+<text x="950" y="30" fill="#779985" text-anchor="end" font-size="12" font-family="monospace">BUILD_001  /  ACTIVE</text>
+<g clip-path="url(#textReveal)">
+ <text x="43" y="133" fill="#f1f7ee" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="900" letter-spacing="-7">EZZ</text>
+ <text x="272" y="133" fill="#a2d8ae" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="900" letter-spacing="-7">MOHAMED</text>
+</g>
+<text x="51" y="172" fill="#afcbbb" font-family="monospace" font-size="17" letter-spacing="1.5">THINK LIKE A FOUNDER.  BUILD LIKE AN ENGINEER.</text>
+<path d="M51 194H948" stroke="#20392b" stroke-width="2"/>
+<path d="M51 194H948" stroke="url(#beam)" stroke-width="3" stroke-dasharray="170 730" style="animation:dash 5s linear infinite"/>
+<text x="51" y="223" fill="#7a9e84" font-size="13" font-family="monospace">SOFTWARE DEVELOPMENT</text>
+<text x="500" y="223" fill="#7a9e84" font-size="13" text-anchor="middle" font-family="monospace">SAAS / PRODUCT</text>
+<text x="949" y="223" fill="#7a9e84" font-size="13" text-anchor="end" font-family="monospace">BUSINESS STRATEGY</text>
+</svg>
