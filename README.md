@@ -1,29 +1,40 @@
-<!-- EZZ / THE BUILD SYSTEM. All display artwork is self-hosted. -->
+<!-- EZZ MOHAMED — Premium self-hosted animated GitHub profile -->
 <div align="center">
 
-<img src="./assets/ezz-hero-premium.gif" alt="EZZ MOHAMED — Think like a founder. Build like an engineer. Animated header." width="100%" />
+<img width="100%" src="./assets/ezz-hero-premium.gif" alt="Ezz Mohamed — Software Developer and Founder. Animated introduction with his real photo." />
 
-<img src="./assets/ezz-identity.png" alt="Real portrait of Ezz Mohamed. Software developer, founder and SaaS builder. I think about the business behind the code." width="100%" />
+<br />
 
-<img src="./assets/ezz-disciplines-premium.gif" alt="Engineering, product and business: software development, SaaS products, and business strategy." width="100%" />
+<img width="100%" src="./assets/ezz-identity.png" alt="I don't just build software. I think about the business behind it." />
 
-<img src="./assets/ezz-heatmap.svg" alt="Automatically updated contribution heatmap based on real public GitHub activity." width="100%" />
+<br />
 
-<img src="./assets/ezz-stats.svg" alt="Automatically refreshed real GitHub follower count, public repositories and date of last update." width="100%" />
+<img width="100%" src="./assets/ezz-disciplines-premium.gif" alt="Engineering, Product and Business: one mindset, three disciplines." />
+
+<br />
+
+<img width="100%" src="./assets/ezz-process.gif" alt="Animated product process: Discover, Validate, Design, Build, Iterate." />
+
+<br />
+
+<img width="100%" src="./assets/ezz-heatmap.svg" alt="Real public GitHub contribution history, refreshed daily." />
+
+<br />
+
+<img width="100%" src="./assets/ezz-stats.svg" alt="Actual GitHub followers and public repositories, updated by GitHub Actions." />
+
+<br />
 
 <a href="https://github.com/3zz2004?tab=repositories">
-<img src="./assets/ezz-footer.gif" alt="The best is yet to be built. Explore my repositories." width="100%" />
+<img width="100%" src="./assets/ezz-footer.gif" alt="The best is yet to be built. View Ezz Mohamed's GitHub work." />
 </a>
 
 </div>
 
 <!--
-SOFTWARE x PRODUCT x BUSINESS
-
-Ezz Mohamed is a software developer and founder who works
-where technology, business strategy and product development meet.
-
-This README is intentionally visual, with subtle GIF animations,
-an authentic avatar and GitHub data refreshed by Actions.
-No invented projects, fake counters, or unsupported tech badges.
+I work across software development, system architecture,
+SaaS product building, business strategy and startup growth.
+This profile uses the owner's real supplied photograph,
+self-hosted animated artwork and authentic GitHub statistics.
+No invented project launches, no manufactured activity.
 -->
