@@ -1,154 +1,99 @@
 <div align="center">
 
-<img src="./ezz-hero.gif" width="100%" alt="Animated EZZ MOHAMED hero — Think / Build / Grow" />
+<img src="./assets/ezz-wordmark.svg" width="100%" alt="Animated EZZ MOHAMED — Software × Product × Business" />
 
-<br />
+<br>
 
-### I DON'T JUST BUILD SOFTWARE. I THINK ABOUT THE BUSINESS BEHIND IT.
+**I DON'T JUST BUILD SOFTWARE. I THINK ABOUT THE BUSINESS BEHIND IT.**
 
-<sub>SOFTWARE ENGINEERING &nbsp; × &nbsp; PRODUCT &nbsp; × &nbsp; BUSINESS</sub>
+<sub>Building at the intersection of technology, products, and business strategy.</sub>
 
-<br /><br />
+<br><br>
 
-<a href="#01--the-mind-behind-the-build"><b>ABOUT</b></a> &nbsp;·&nbsp;
-<a href="#02--one-mindset-three-disciplines"><b>WHAT I DO</b></a> &nbsp;·&nbsp;
+<a href="#01--the-build"><b>THE BUILD</b></a> &nbsp;·&nbsp;
+<a href="#02--the-person-behind-the-code"><b>WHOAMI</b></a> &nbsp;·&nbsp;
 <a href="#03--the-product-lab"><b>PRODUCT LAB</b></a> &nbsp;·&nbsp;
-<a href="#04--live-github-snapshot"><b>LIVE STATS</b></a>
+<a href="#04--the-numbers"><b>ACTIVITY</b></a>
 
 </div>
 
----
+<br>
 
-### 01 / THE MIND BEHIND THE BUILD
-
-I'm **Ezz Mohamed** — a software developer and founder who sees the bigger picture behind every product.
-
-I help businesses and startups think through the **problem, business model, product strategy, and technology** — from an idea worth testing to software worth using.
-
-I care about the questions that come before the code: **Who needs this? Why would they choose it? Does the business make sense?**
-
-> **Think like a founder. Build like an engineer.**
-
-<br />
-
-### 02 / ONE MINDSET. THREE DISCIPLINES.
+### 01 / THE BUILD
 
 <div align="center">
 
-<img src="./ezz-disciplines.gif" width="100%" alt="Animated engineering, product and business disciplines" />
+<img src="./assets/ezz-heatmap.svg" width="100%" alt="Animated graph of real GitHub public contributions over the past year" />
 
 </div>
+
+<br>
+
+### 02 / THE PERSON BEHIND THE CODE
 
 <table>
 <tr>
-<td width="33%" valign="top"><b>01 / ENGINEERING</b><br /><br />Software development<br />System architecture<br />AI & automation</td>
-<td width="33%" valign="top"><b>02 / PRODUCT</b><br /><br />SaaS exploration<br />Product development<br />Build · Test · Iterate</td>
-<td width="34%" valign="top"><b>03 / BUSINESS</b><br /><br />Business strategy<br />Marketing strategy<br />Startup growth</td>
+<td width="46%" align="center" valign="top">
+<img src="./assets/ezz-portrait.svg" width="100%" alt="ASCII portrait animated from the public GitHub avatar of Ezz Mohamed" />
+</td>
+<td width="54%" align="center" valign="top">
+<img src="./assets/ezz-system.svg" width="100%" alt="Terminal information card: software developer, founder and product builder" />
+</td>
 </tr>
 </table>
 
-<br />
+<br>
+
+> **I'm Ezz Mohamed.** I develop software, think about the business behind it, and enjoy the messy space where ideas become products. I help businesses and startups connect their **strategy, product, and technology** — so they can build the *right thing*, not just build something.
+
+<br>
 
 ### 03 / THE PRODUCT LAB
 
-I'm exploring and building SaaS products around real problems. **No invented launches, no placeholder projects.** I'll share the work when it's ready to be useful.
+<details>
+<summary><b>↗ CURRENTLY BUILDING — SaaS &amp; SOFTWARE</b></summary>
+
+<br>
+
+I'm exploring and developing SaaS products around problems worth solving. Nothing announced before it's real.
+
+My build cycle: **Discover → Validate → Architect → Build → Learn.**
+
+I'll share product demos, technical decisions, and progress here when they're ready.
+
+</details>
+
+<details>
+<summary><b>↗ HOW I THINK — ENGINEERING × BUSINESS</b></summary>
+
+<br>
+
+Good software needs architecture, but a successful product needs more than code.
+
+Before building, I ask: **Who is this for? Why should it exist? Does the business model work? Is software actually the best solution?**
+
+**Think like a founder. Build like an engineer.**
+
+</details>
+
+<br>
+
+### 04 / THE NUMBERS
 
 <div align="center">
 
-<img src="./ezz-lab.gif" width="100%" alt="Animated workflow: problem, validate, design, build, learn" />
+<img src="./assets/ezz-stats.svg" width="100%" alt="Real GitHub followers, public repository count and last successful refresh" />
 
-</div>
+<sub>Powered by GitHub's public data. Refreshed daily by Actions — not a real-time clock.</sub>
 
-<details>
-<summary><b>↗ OPEN PRODUCT LAB — THE BUILD PROCESS</b></summary>
+<br><br>
 
-<br />
+<a href="https://github.com/3zz2004?tab=repositories"><b>VIEW MY REPOSITORIES ↗</b></a>
+&nbsp; / &nbsp;
+<a href="https://github.com/3zz2004"><b>FOLLOW THE BUILD ↗</b></a>
 
-| Stage | The question I ask |
-| --- | --- |
-| **01 · Discover** | Is this a real problem? |
-| **02 · Validate** | Would anyone use or pay for a solution? |
-| **03 · Design** | What's the simplest useful version? |
-| **04 · Build** | How can I make it reliable and maintainable? |
-| **05 · Learn** | What should real feedback change? |
+<br><br>
 
-**Product demos, technical decisions, and real build notes will appear here as projects ship.**
-
-</details>
-
-<br />
-
-### 04 / LIVE GITHUB SNAPSHOT
-
-<div align="center">
-
-<img src="./live-stats.png" width="100%" alt="Automatically updated GitHub follower count, public repository count and last sync time" />
-
-<sub>Actual public GitHub numbers · updated daily through GitHub Actions · timestamp = last successful refresh</sub>
-
-</div>
-
-<details>
-<summary><b>↗ HOW THE DYNAMIC PROFILE WORKS</b></summary>
-
-<br />
-
-- The moving header, disciplines, product lab, and footer are animated GIFs stored in this repository.
-- The statistics image is regenerated using the GitHub API and a scheduled GitHub Action.
-- The timestamp is generated at refresh time; it is not a made-up date or a live clock.
-- Product information is updated intentionally when there is real work to share.
-
-</details>
-
-<br />
-
-### 05 / THE DECISION FILTER
-
-<details>
-<summary><b>+ ENGINEERING MODE</b></summary>
-
-<br />
-
-I value good architecture, but complexity isn't a feature. The best systems solve the right problem without becoming the problem.
-
-</details>
-
-<details>
-<summary><b>+ BUSINESS MODE</b></summary>
-
-<br />
-
-Great code can't rescue a business model nobody needs. Product decisions need to connect to customers, positioning, economics, and growth.
-
-</details>
-
-<details>
-<summary><b>+ FOUNDER MODE</b></summary>
-
-<br />
-
-Not everything that can be built should be built. I'd rather challenge the idea early than spend months shipping the wrong product.
-
-</details>
-
-<br />
-
-### 06 / STILL IN BUILD MODE
-
-<div align="center">
-
-<b>BETTER QUESTIONS → BETTER PRODUCTS → BETTER BUSINESSES.</b>
-
-<br /><br />
-
-<a href="https://github.com/3zz2004?tab=repositories"><b>EXPLORE MY REPOSITORIES ↗</b></a>
-&nbsp; · &nbsp;
-<a href="https://github.com/3zz2004"><b>FOLLOW THE JOURNEY ↗</b></a>
-
-<br /><br />
-
-<img src="./ezz-outro.gif" width="100%" alt="Animated ending — Think like a founder, build like an engineer" />
-
-<sub><b>EZZ MOHAMED</b> &nbsp; / &nbsp; @3zz2004</sub>
+<sub>EZZ MOHAMED &nbsp;·&nbsp; @3zz2004 &nbsp;·&nbsp; STILL IN BUILD MODE.</sub>
 
 </div>
