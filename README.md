@@ -1,99 +1,29 @@
+<!-- EZZ / THE BUILD SYSTEM. All display artwork is self-hosted. -->
 <div align="center">
 
-<img src="./assets/ezz-wordmark.svg" width="100%" alt="Animated EZZ MOHAMED — Software × Product × Business" />
+<img src="./assets/ezz-hero-premium.gif" alt="EZZ MOHAMED — Think like a founder. Build like an engineer. Animated header." width="100%" />
 
-<br>
+<img src="./assets/ezz-identity.png" alt="Real portrait of Ezz Mohamed. Software developer, founder and SaaS builder. I think about the business behind the code." width="100%" />
 
-**I DON'T JUST BUILD SOFTWARE. I THINK ABOUT THE BUSINESS BEHIND IT.**
+<img src="./assets/ezz-disciplines-premium.gif" alt="Engineering, product and business: software development, SaaS products, and business strategy." width="100%" />
 
-<sub>Building at the intersection of technology, products, and business strategy.</sub>
+<img src="./assets/ezz-heatmap.svg" alt="Automatically updated contribution heatmap based on real public GitHub activity." width="100%" />
 
-<br><br>
+<img src="./assets/ezz-stats.svg" alt="Automatically refreshed real GitHub follower count, public repositories and date of last update." width="100%" />
 
-<a href="#01--the-build"><b>THE BUILD</b></a> &nbsp;·&nbsp;
-<a href="#02--the-person-behind-the-code"><b>WHOAMI</b></a> &nbsp;·&nbsp;
-<a href="#03--the-product-lab"><b>PRODUCT LAB</b></a> &nbsp;·&nbsp;
-<a href="#04--the-numbers"><b>ACTIVITY</b></a>
+<a href="https://github.com/3zz2004?tab=repositories">
+<img src="./assets/ezz-footer.gif" alt="The best is yet to be built. Explore my repositories." width="100%" />
+</a>
 
 </div>
 
-<br>
+<!--
+SOFTWARE x PRODUCT x BUSINESS
 
-### 01 / THE BUILD
+Ezz Mohamed is a software developer and founder who works
+where technology, business strategy and product development meet.
 
-<div align="center">
-
-<img src="./assets/ezz-heatmap.svg" width="100%" alt="Animated graph of real GitHub public contributions over the past year" />
-
-</div>
-
-<br>
-
-### 02 / THE PERSON BEHIND THE CODE
-
-<table>
-<tr>
-<td width="46%" align="center" valign="top">
-<img src="./assets/ezz-portrait.svg" width="100%" alt="ASCII portrait animated from the public GitHub avatar of Ezz Mohamed" />
-</td>
-<td width="54%" align="center" valign="top">
-<img src="./assets/ezz-system.svg" width="100%" alt="Terminal information card: software developer, founder and product builder" />
-</td>
-</tr>
-</table>
-
-<br>
-
-> **I'm Ezz Mohamed.** I develop software, think about the business behind it, and enjoy the messy space where ideas become products. I help businesses and startups connect their **strategy, product, and technology** — so they can build the *right thing*, not just build something.
-
-<br>
-
-### 03 / THE PRODUCT LAB
-
-<details>
-<summary><b>↗ CURRENTLY BUILDING — SaaS &amp; SOFTWARE</b></summary>
-
-<br>
-
-I'm exploring and developing SaaS products around problems worth solving. Nothing announced before it's real.
-
-My build cycle: **Discover → Validate → Architect → Build → Learn.**
-
-I'll share product demos, technical decisions, and progress here when they're ready.
-
-</details>
-
-<details>
-<summary><b>↗ HOW I THINK — ENGINEERING × BUSINESS</b></summary>
-
-<br>
-
-Good software needs architecture, but a successful product needs more than code.
-
-Before building, I ask: **Who is this for? Why should it exist? Does the business model work? Is software actually the best solution?**
-
-**Think like a founder. Build like an engineer.**
-
-</details>
-
-<br>
-
-### 04 / THE NUMBERS
-
-<div align="center">
-
-<img src="./assets/ezz-stats.svg" width="100%" alt="Real GitHub followers, public repository count and last successful refresh" />
-
-<sub>Powered by GitHub's public data. Refreshed daily by Actions — not a real-time clock.</sub>
-
-<br><br>
-
-<a href="https://github.com/3zz2004?tab=repositories"><b>VIEW MY REPOSITORIES ↗</b></a>
-&nbsp; / &nbsp;
-<a href="https://github.com/3zz2004"><b>FOLLOW THE BUILD ↗</b></a>
-
-<br><br>
-
-<sub>EZZ MOHAMED &nbsp;·&nbsp; @3zz2004 &nbsp;·&nbsp; STILL IN BUILD MODE.</sub>
-
-</div>
+This README is intentionally visual, with subtle GIF animations,
+an authentic avatar and GitHub data refreshed by Actions.
+No invented projects, fake counters, or unsupported tech badges.
+-->
