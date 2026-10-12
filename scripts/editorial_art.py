@@ -1,137 +1,121 @@
 #!/usr/bin/env python3
-"""Self-hosted premium README artwork generated from the real GitHub avatar."""
-from io import BytesIO
+"""Animated, self-hosted README artwork from Ezz's supplied, unmodified photo."""
 from pathlib import Path
-from urllib.request import Request, urlopen
-import json
-import math
 from PIL import Image, ImageDraw, ImageFont, ImageOps
+import math
 
-ART = Path(__file__).resolve().parents[1] / "assets"
-ART.mkdir(parents=True, exist_ok=True)
-BGC = (13, 21, 17)
-PANEL = (17, 30, 23)
-LINE = (48, 72, 55)
-WHITE = (243, 249, 242)
-GREEN = (165, 217, 171)
-MUTED = (143, 170, 151)
-REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+ART=Path(__file__).resolve().parents[1]/"assets"
+ART.mkdir(parents=True,exist_ok=True)
+PHOTO=ART/"ezz-source.webp"
+BG=(12,19,16); WHITE=(239,246,237); GREEN=(167,219,174)
+MUTED=(138,169,147); BORDER=(46,74,55)
+FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
+def f(n,b=False):
+    return ImageFont.truetype(BOLD if b else FONT,n)
 
-def font(n, bold=False):
-    return ImageFont.truetype(BOLD if bold else REG, n)
+def base(w,h):
+    a=Image.new("RGB",(w,h),BG)
+    ImageDraw.Draw(a).rounded_rectangle((2,2,w-3,h-3),radius=18,outline=BORDER,width=2)
+    return a
 
-
-def base(w, h):
-    im = Image.new("RGB", (w, h), BGC)
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle((2, 2, w-3, h-3), radius=18, outline=LINE, width=2)
+def hero(photo,t):
+    im=base(1200,480)
+    crop=ImageOps.fit(photo,(540,480),method=Image.Resampling.LANCZOS,centering=(.5,.43))
+    # Only resize and blend the edge; no facial regeneration or alteration.
+    alpha=Image.new("L",(540,480))
+    ap=alpha.load()
+    for y in range(480):
+        for x in range(540):
+            ap[x,y]=min(255,int(255*max(0,min(1,(x-6)/180))),max(90,int(255*max(0,min(1,(480-y)/105)))))
+    im.paste(crop,(660,0),alpha)
+    d=ImageDraw.Draw(im)
+    d.line((55,70,1138,70),fill=(56,80,61),width=2)
+    d.text((58,32),"EZZ / PORTFOLIO SYSTEM",font=f(17,True),fill=GREEN)
+    d.text((959,34),"BUILD MODE / ACTIVE",font=f(14),fill=MUTED)
+    d.line((57,107,57,367),fill=(81,126,92),width=3)
+    d.text((77,101),"EZZ",font=f(118,True),fill=WHITE)
+    d.text((72,222),"MOHAMED",font=f(78,True),fill=GREEN)
+    d.text((75,345),"SOFTWARE DEVELOPER  /  FOUNDER",font=f(21,True),fill=WHITE)
+    d.text((77,385),"PRODUCT. STRATEGY. ENGINEERING.",font=f(17),fill=MUTED)
+    d.line((76,425,561,425),fill=(55,88,64),width=3)
+    x1=76+int(485*t)
+    d.line((max(76,x1-135),425,x1,425),fill=GREEN,width=4)
+    d.ellipse((x1-4,421,x1+4,429),fill=GREEN)
+    d.text((77,447),"I BUILD WHAT MAKES SENSE.",font=f(16,True),fill=WHITE)
     return im
 
-
-def hero(t):
-    im = base(1200, 290)
-    d = ImageDraw.Draw(im)
-    for x in range(28, 1200, 67):
-        d.line((x, 8, x, 282), fill=(19, 30, 24), width=1)
-    d.rectangle((27, 28, 34, 51), fill=GREEN)
-    d.text((47, 29), "EZZ / THE BUILD SYSTEM", font=font(17, True), fill=MUTED)
-    d.text((1048, 29), "v 02 / ONLINE", font=font(14), fill=GREEN)
-    d.text((37, 72), "EZZ", font=font(105, True), fill=WHITE)
-    d.text((282, 72), "MOHAMED", font=font(95, True), fill=GREEN)
-    d.text((43, 198), "THINK LIKE A FOUNDER. BUILD LIKE AN ENGINEER.", font=font(26, True), fill=WHITE)
-    d.text((44, 250), "SOFTWARE DEVELOPMENT  /  SAAS & PRODUCT  /  BUSINESS STRATEGY", font=font(14), fill=MUTED)
-    d.line((44, 239, 1153, 239), fill=LINE, width=3)
-    mx = int(44 + 1110*t)
-    d.line((mx-42, 239, mx, 239), fill=GREEN, width=4)
-    d.ellipse((mx-5, 234, mx+5, 244), fill=GREEN)
+def statement():
+    im=base(1200,196);d=ImageDraw.Draw(im)
+    d.rectangle((42,35,48,159),fill=GREEN)
+    d.text((76,20),"THE THINKING BEHIND THE CODE",font=f(17,True),fill=MUTED)
+    d.text((76,58),"I DON'T JUST BUILD SOFTWARE.",font=f(35,True),fill=WHITE)
+    d.text((76,107),"I THINK ABOUT THE BUSINESS BEHIND IT.",font=f(29,True),fill=GREEN)
+    d.text((76,163),"From the problem to the product to the growth.",font=f(16),fill=MUTED)
     return im
-
-
-def identity(photo):
-    W, H = 1200, 408
-    im = base(W, H)
-    d = ImageDraw.Draw(im)
-    ph = ImageOps.fit(photo, (330, 358), method=Image.Resampling.LANCZOS, centering=(.5, .35))
-    ph = ImageOps.colorize(ImageOps.grayscale(ph), black=(14, 24, 20), white=(185, 210, 192)).convert("RGB")
-    mask = Image.new("L", (330, 358))
-    ImageDraw.Draw(mask).rounded_rectangle((0, 0, 329, 357), radius=12, fill=255)
-    im.paste(ph, (28, 24), mask)
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle((27, 23, 359, 383), radius=13, outline=(72, 105, 82), width=2)
-    d.line((382, 27, 382, 380), fill=(49, 72, 56), width=2)
-    d.text((420, 38), "PERSON / 001", font=font(18, True), fill=GREEN)
-    d.text((417, 83), "THE PERSON", font=font(49, True), fill=WHITE)
-    d.text((417, 145), "BEHIND THE BUILD.", font=font(48, True), fill=GREEN)
-    d.line((420, 226, 1127, 226), fill=(64, 94, 70), width=2)
-    d.text((420, 245), "Software Developer  /  Founder  /  SaaS Builder", font=font(20), fill=(227, 239, 228))
-    d.text((420, 291), "I think about the business behind the code.", font=font(21), fill=WHITE)
-    d.text((420, 324), "From the problem to the product to the growth.", font=font(19), fill=MUTED)
-    d.text((420, 371), "SOFTWARE  /  PRODUCT  /  BUSINESS", font=font(15), fill=GREEN)
-    return im
-
 
 def disciplines(t):
-    im = base(1200, 302)
-    d = ImageDraw.Draw(im)
-    d.text((36, 20), "THREE DISCIPLINES. ONE BUILDER.", font=font(31, True), fill=WHITE)
-    d.text((39, 63), "I connect the strategy with the product and the technology that makes it possible.", font=font(16), fill=MUTED)
-    cards = [
-        ("01", "ENGINEERING", "Software development", "Architecture  /  AI"),
-        ("02", "PRODUCT", "SaaS exploration", "Validate  /  Build"),
-        ("03", "BUSINESS", "Business strategy", "Position  /  Grow"),
-    ]
-    for i, (num, title, detail, detail2) in enumerate(cards):
-        x, y = 31+i*393, 104
-        active = (i == int(t*3)%3)
-        d.rounded_rectangle((x, y, x+368, y+167), radius=13, fill=PANEL,
-                            outline=GREEN if active else LINE, width=3 if active else 2)
-        d.text((x+22, y+20), num, font=font(17, True), fill=GREEN)
-        d.text((x+22, y+56), title, font=font(32, True), fill=WHITE)
-        d.text((x+22, y+113), detail, font=font(16), fill=(205, 222, 207))
-        d.text((x+22, y+145), detail2, font=font(15), fill=MUTED)
+    im=base(1200,305);d=ImageDraw.Draw(im)
+    d.text((42,25),"ONE MINDSET. THREE DISCIPLINES.",font=f(33,True),fill=WHITE)
+    d.text((43,73),"Connecting the strategy, the product and the technology.",font=f(17),fill=MUTED)
+    items=[("01","ENGINEERING","Software & systems","Architecture / AI"),
+           ("02","PRODUCT","SaaS & product thinking","Build / Iterate"),
+           ("03","BUSINESS","Strategy & growth","Position / Scale")]
+    for i,(num,title,line1,line2) in enumerate(items):
+        x=35+i*394;y=119;active=int(t*3)%3==i
+        d.rounded_rectangle((x,y,x+374,y+160),radius=12,fill=(18,33,24),
+                            outline=GREEN if active else BORDER,width=3 if active else 2)
+        d.text((x+17,y+13),num,font=f(18,True),fill=GREEN)
+        d.text((x+18,y+44),title,font=f(28,True),fill=WHITE)
+        d.text((x+18,y+103),line1,font=f(16),fill=(213,228,213))
+        d.text((x+18,y+133),line2,font=f(15),fill=MUTED)
     return im
 
+def process(t):
+    im=base(1200,198);d=ImageDraw.Draw(im)
+    d.text((43,18),"THE PRODUCT LOOP",font=f(27,True),fill=WHITE)
+    d.text((44,57),"Not everything that can be built should be built.",font=f(17),fill=MUTED)
+    stages=["DISCOVER","VALIDATE","DESIGN","BUILD","ITERATE"]
+    active=int(t*5)%5
+    for i,s in enumerate(stages):
+        x=49+i*230;y=114
+        d.ellipse((x,y,x+19,y+19),fill=GREEN if i==active else (61,94,70))
+        d.text((x+31,y-2),s,font=f(17,True),fill=GREEN if i==active else WHITE)
+        if i<4:d.line((x+159,y+10,x+211,y+10),fill=(91,129,98),width=2)
+    d.line((49,159,1150,159),fill=BORDER,width=2)
+    d.line((49,159,49+int(1101*t),159),fill=GREEN,width=4)
+    return im
 
 def footer(t):
-    im = base(1200, 157)
-    d = ImageDraw.Draw(im)
-    d.text((38, 24), "THE BEST IS YET TO BE BUILT.", font=font(43, True), fill=WHITE)
-    d.text((41, 105), "EZZ MOHAMED   /   @3zz2004", font=font(15), fill=MUTED)
-    x, y = 833, 91
-    d.rounded_rectangle((x, y, x+328, y+48), radius=9, fill=(30, 53, 36), outline=GREEN, width=2)
-    d.text((x+21, y+13), "EXPLORE MY REPOS", font=font(17, True), fill=GREEN)
-    shift = 8+int(9*abs(math.sin(t*math.pi)))
-    d.line((x+279, y+24, x+279+shift, y+24), fill=GREEN, width=3)
-    d.line((x+279+shift-8, y+17, x+279+shift, y+24), fill=GREEN, width=3)
-    d.line((x+279+shift-8, y+31, x+279+shift, y+24), fill=GREEN, width=3)
+    im=base(1200,190);d=ImageDraw.Draw(im)
+    d.text((43,26),"THE BEST IS YET",font=f(45,True),fill=WHITE)
+    d.text((43,84),"TO BE BUILT.",font=f(44,True),fill=GREEN)
+    d.text((47,161),"EZZ MOHAMED   /   @3zz2004",font=f(17),fill=MUTED)
+    x,y=804,67
+    d.rounded_rectangle((x,y,x+347,y+65),radius=10,fill=(25,46,32),outline=GREEN,width=2)
+    d.text((x+23,y+20),"VIEW MY WORK",font=f(23,True),fill=WHITE)
+    ax=x+292+int(9*math.sin(t*math.pi)**2)
+    d.line((ax-10,y+34,ax+13,y+34),fill=GREEN,width=4)
+    d.line((ax+3,y+25,ax+13,y+34,ax+3,y+43),fill=GREEN,width=4)
     return im
 
-
-def gif(name, frames):
-    frames = [frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=72) for frame in frames]
-    frames[0].save(ART/name, save_all=True, append_images=frames[1:], loop=0,
-                   duration=125, optimize=True, disposal=2)
-    print(name, (ART/name).stat().st_size)
-
+def gif(name,frames,colors=170):
+    indexed=[a.quantize(colors=colors,method=Image.Quantize.MEDIANCUT,
+                        dither=Image.Dither.NONE) for a in frames]
+    indexed[0].save(ART/name,save_all=True,append_images=indexed[1:],duration=160,
+                    loop=0,disposal=2,optimize=True)
+    print(name,(ART/name).stat().st_size)
 
 def main():
-    req = Request("https://api.github.com/users/3zz2004",
-                  headers={"User-Agent":"EzzREADME/1.0", "Accept":"application/vnd.github+json"})
-    with urlopen(req, timeout=25) as f:
-        profile = json.load(f)
-    url = profile["avatar_url"]
-    url += ("&" if "?" in url else "?") + "s=800"
-    req = Request(url, headers={"User-Agent":"EzzREADME/1.0"})
-    with urlopen(req, timeout=25) as f:
-        photo = Image.open(BytesIO(f.read())).convert("RGB")
-    identity(photo).save(ART/"ezz-identity.png", optimize=True)
-    gif("ezz-hero-premium.gif", [hero(i/23) for i in range(24)])
-    gif("ezz-disciplines-premium.gif", [disciplines(i/23) for i in range(24)])
-    gif("ezz-footer.gif", [footer(i/15) for i in range(16)])
-    print("Identity image refreshed from authentic GitHub avatar.")
+    if not PHOTO.exists():
+        raise RuntimeError("Missing user-supplied source photo; refusing avatar substitution")
+    photo=Image.open(PHOTO).convert("RGB")
+    statement().save(ART/"ezz-identity.png",optimize=True)
+    gif("ezz-hero-premium.gif",[hero(photo,i/19) for i in range(20)])
+    gif("ezz-disciplines-premium.gif",[disciplines(i/20) for i in range(21)],105)
+    gif("ezz-process.gif",[process(i/24) for i in range(25)],110)
+    gif("ezz-footer.gif",[footer(i/19) for i in range(20)],100)
+    print("Rendered with Ezz's real uploaded photo")
 
-
-if __name__ == "__main__":
-    main()
+if __name__=="__main__":main()
