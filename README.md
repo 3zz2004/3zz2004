@@ -1,249 +1,147 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=280&color=0:050805,50:142419,100:050805&text=EZZ%20MOHAMED&fontColor=B4E4A5&fontSize=55&animation=twinkling&stroke=7CBF78&strokeWidth=1&desc=SOFTWARE%20DEVELOPER%20%2F%20FOUNDER%20%2F%20BUILDER&descSize=17&descAlignY=75"/>
+<img src="./assets/ezz-hero.svg" width="100%" alt="Ezz Mohamed — engineering, product, business" />
 
-<br>
+<br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=9BCB8C&center=true&vCenter=true&repeat=true&width=800&height=75&lines=I+don't+just+write+code.;I+think+about+the+business+behind+it.;Think+like+a+founder.;Build+like+an+engineer.;The+best+is+yet+to+be+built." alt="Typing Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2900&pause=1100&color=9CCDAA&center=true&vCenter=true&width=760&height=52&lines=I+build+software+with+the+business+in+mind.;From+problem+to+product.;Not+everything+that+can+be+built+should+be.;Always+building.+Always+learning." alt="What drives me — animated typing text" />
 
-<br>
-
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-86C578?style=for-the-badge&labelColor=101510"/>
-
-<img src="https://img.shields.io/badge/MODE-BUILDING-86C578?style=for-the-badge&labelColor=101510"/>
-
-<img src="https://img.shields.io/badge/MINDSET-FOUNDER-86C578?style=for-the-badge&labelColor=101510"/>
+SOFTWARE DEVELOPER   ·   FOUNDER   ·   SAAS BUILDER
 
 </div>
 
-<br>
-
----
-
-## `> INITIALIZING EZZ.OS`
-
-```bash
-ezz@developer:~$ whoami
-
-Name       : Ezz Mohamed
-Role       : Software Developer & Founder
-Focus      : Software, SaaS, AI & Business Strategy
-Mission    : Build things that solve real problems
-
-ezz@developer:~$ current_status
-
-[✓] Thinking beyond code
-[✓] Connecting business with technology
-[→] Exploring and building SaaS products
-[→] Learning, experimenting, improving
-
-SYSTEM STATUS: ALWAYS BUILDING
-```
-
----
-
-## `01 / BEYOND THE CODE`
-
-I build software, but my thinking doesn't stop at the code.
-
-I'm interested in the entire journey — from understanding a problem and developing the business strategy to designing the technology that brings a product to life.
-
-I work at the intersection of **Software Engineering, Product Development, AI, Business Strategy, and Startup Growth.**
-
-My goal isn't to build more software.
-
-**It's to build software that actually matters.**
-
----
-
-## `02 / THE THREE SIDES OF MY WORLD`
+<br />
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="65%" valign="top">
 
-### `</>`
+01 / THE IDEA
 
-**ENGINEERING**
+I don't just build software. I think about the business behind it.
 
-Software Development
+I'm Ezz — a developer and founder interested in the space where engineering, products, and business decisions meet.
 
-System Architecture
-
-AI & Automation
+I care about the problem before the solution, the people before the features, and whether a product deserves to exist before writing the first line of code.
 
 </td>
+<td width="35%" valign="top">
 
-<td width="33%" align="center">
+CURRENT MODE
 
-### `⚡`
-
-**PRODUCT**
-
-SaaS Development
-
-Product Thinking
-
-Building & Iteration
-
-</td>
-
-<td width="33%" align="center">
-
-### `↗`
-
-**BUSINESS**
-
-Business Strategy
-
-Startup Growth
-
-Marketing Strategy
+> SYSTEM     : ONLINE
+> FOCUS      : SOFTWARE
+> DIRECTION  : SAAS
+> APPROACH   : BUILD / LEARN
+> STATUS     : IN PROGRESS
 
 </td>
 </tr>
 </table>
 
----
+02 / THREE SIDES. ONE WAY OF THINKING.
 
-## `03 / THE PRODUCT LAB`
+<table>
+<tr>
+<td width="33%" valign="top">
+
+</> ENGINEERING
+
+Software Development
+System Thinking
+AI & Automation
+
+</td>
+<td width="33%" valign="top">
+
+◇ PRODUCT
+
+SaaS Exploration
+Product Development
+Build · Test · Iterate
+
+</td>
+<td width="33%" valign="top">
+
+↗ BUSINESS
+
+Business Strategy
+Marketing Strategy
+Startup Growth
+
+</td>
+</tr>
+</table>
+
+03 / WHAT I'M BUILDING
+
+I'm exploring and building SaaS products around problems worth solving.
+
+Not every experiment needs a launch announcement. Not every idea needs to become a company.
+
+The goal is simple: find the right problem, then build the right solution.
+
+<details>
+<summary><b>↳ OPEN THE PRODUCT LAB</b></summary>
+<br />
+
+DISCOVER  ───  VALIDATE  ───  DESIGN  ───  BUILD  ───  ITERATE
+    ?              ✓            ◇          </>           ↗
+
+This space will feature real products and technical breakdowns as they're ready to share.
+
+</details>
+
+04 / MY DECISION FILTER
+
+Before I start building, I ask:
+
+Question
+
+Why it matters
+
+Is this a real problem?
+
+Cool technology isn't the same as real demand.
+
+Who needs this?
+
+Products are built for people, not feature lists.
+
+Does the business work?
+
+Architecture matters. Economics matter too.
+
+What's the smallest useful version?
+
+Validate first. Scale what works.
+
+<details>
+<summary><b>↳ EXPAND: HOW I THINK ABOUT SOFTWARE</b></summary>
+<br />
+
+I like clean systems, but I don't confuse technical complexity with product value.
+
+The best solution is the one that solves the problem without creating unnecessary complexity.
+
+</details>
+
+<details>
+<summary><b>↳ EXPAND: HOW I THINK ABOUT BUSINESS</b></summary>
+<br />
+
+I look at positioning, business models, distribution, and growth alongside the technical decisions — because a product can be well-engineered and still fail to find its market.
+
+</details>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2200&pause=800&color=9BCB8C&center=true&vCenter=true&width=650&height=60&lines=Initializing+new+ideas...;Exploring+real+problems...;Building+SaaS+products...;Testing.+Learning.+Iterating." alt="Product Lab Status"/>
+05 / STILL IN BUILD MODE.
 
-</div>
+Think like a founder. Build like an engineer.
 
-I'm exploring and developing multiple SaaS ideas.
+EXPLORE MY REPOSITORIES ↗   ·   GITHUB PROFILE ↗
 
-Not everything I'm building is ready to be shared.
-
-And that's okay.
-
-**Good products take more than good code.**
-
-<details>
-<summary><b>▶ OPEN PRODUCT LAB</b></summary>
-
-<br>
-
-```text
-PRODUCT DEVELOPMENT PIPELINE
-
-[01] DISCOVER
-     Find problems worth solving.
-
-[02] VALIDATE
-     Challenge assumptions.
-
-[03] DESIGN
-     Think product and architecture.
-
-[04] BUILD
-     Turn ideas into working software.
-
-[05] ITERATE
-     Learn from real feedback.
-```
-
-Product showcases will appear here as they're ready.
-
-</details>
-
----
-
-## `04 / HOW MY BRAIN WORKS`
-
-<details>
-<summary><b>▶ ENGINEERING MODE</b></summary>
-
-<br>
-
-I care about how systems are designed, how software performs, and how technical decisions affect the product.
-
-Clean architecture matters.
-
-But solving the right problem matters more.
-
-</details>
-
-<details>
-<summary><b>▶ FOUNDER MODE</b></summary>
-
-<br>
-
-Before investing time in building something, I think about the market, customers, business model, and long-term potential.
-
-Technology is powerful.
-
-But technology without a clear purpose is just complexity.
-
-</details>
-
-<details>
-<summary><b>▶ STRATEGY MODE</b></summary>
-
-<br>
-
-I enjoy connecting business goals with technical execution.
-
-From product positioning to growth strategy, I believe understanding the bigger picture leads to better decisions.
-
-</details>
-
----
-
-## `05 / LIVE DEVELOPMENT ACTIVITY`
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=3zz2004&bg_color=0d1117&color=9BCB8C&line=78B86B&point=FFFFFF&area=true&area_color=244B2D&hide_border=true" alt="GitHub Activity Graph"/>
-
-</div>
-
----
-
-## `06 / MY OPERATING PRINCIPLES`
-
-```python
-def build_something_meaningful():
-
-    problem = understand_the_problem()
-
-    if not worth_solving(problem):
-        return rethink()
-
-    strategy = define_the_strategy(problem)
-
-    product = build_the_solution(strategy)
-
-    return learn_and_improve(product)
-```
-
-**The question isn't just "Can I build it?"**
-
-**It's "Should I build it?"**
-
----
-
-<div align="center">
-
-### `> END OF FILE?`
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1100&color=9BCB8C&center=true&vCenter=true&width=650&height=70&lines=Not+even+close.;We're+just+getting+started.;See+you+in+the+next+build." alt="Closing Animation"/>
-
-<br>
-
-**THINK BUSINESS. BUILD TECHNOLOGY.**
-
-<br>
-
-<a href="https://github.com/3zz2004">
-<img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-101510?style=for-the-badge&logo=github&logoColor=9BCB8C"/>
-</a>
-
-<br><br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050805,50:142419,100:050805&height=120&section=footer"/>
+<sub>3zz2004 · THE BEST IS YET TO BE BUILT.</sub>
 
 </div>
