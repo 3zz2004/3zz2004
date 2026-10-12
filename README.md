@@ -1,356 +1,130 @@
 <div align="center">
 
-  <img
-    src="./ezz-hero.gif"
-    width="100%"
-    alt="Ezz Mohamed — Software Developer, Founder & SaaS Builder"
-  />
+<img src="./assets/ezz-hero.gif" width="100%" alt="Ezz Mohamed - animated software developer and founder header" />
 
-  <br /><br />
+<br />
 
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2900&pause=1100&color=A9D3B4&center=true&vCenter=true&width=740&height=52&lines=I+don't+just+write+code.;I+think+about+the+business+behind+it.;Build+the+right+thing.+Then+build+it+right.;Still+learning.+Still+building."
-    alt="Animated thoughts on software and business"
-  />
+I DON'T JUST BUILD SOFTWARE. I THINK ABOUT THE BUSINESS BEHIND IT.
 
-  <p>
-    <strong>
-      SOFTWARE DEVELOPER &nbsp; / &nbsp;
-      FOUNDER &nbsp; / &nbsp;
-      PRODUCT BUILDER
-    </strong>
-  </p>
+<sub>SOFTWARE × PRODUCT × BUSINESS — ONE WAY OF THINKING.</sub>
 
 </div>
 
 <br />
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
+01 / THE MIND BEHIND THE BUILD
 
-<h3>01 &nbsp; / &nbsp; BEYOND THE CODE</h3>
+I'm Ezz Mohamed — a software developer and founder who likes to understand the entire problem, not just the technical part of it.
 
-<p>
-<strong>
-I don't just build software.
-I think about the business behind it.
-</strong>
-</p>
+I work across software engineering, SaaS, AI, business strategy, and marketing. I help businesses and startups figure out what is worth building, why it matters, and how to turn it into something real.
 
-<p>
-I'm Ezz. I work where software engineering,
-product thinking, and business strategy meet.
-</p>
+I think like a founder. I build like an engineer.
 
-<p>
-I like solving the whole problem:
-finding what matters, deciding what to build,
-and turning it into something people actually need.
-</p>
+<br />
 
-</td>
-<td width="38%" valign="top">
+<img src="./assets/ezz-disciplines.gif" width="100%" alt="Animated cards: engineering, product, and business" />
 
-<h3>↗ &nbsp; CURRENT DIRECTION</h3>
+<br />
 
-<p>
-<code>ENGINEERING</code> &nbsp; Software that works
-</p>
+03 / WHAT I'M ACTUALLY BUILDING
 
-<p>
-<code>PRODUCT</code> &nbsp; Ideas worth testing
-</p>
+I'm exploring and developing SaaS ideas around real problems. Some are experiments, some are taking shape, and I'll share the products when there's something worth showing.
 
-<p>
-<code>BUSINESS</code> &nbsp; Strategy that makes sense
-</p>
-
-<p>
-<code>STATUS</code> &nbsp; Building &amp; learning
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-## `02 / ONE MINDSET. THREE DISCIPLINES.`
-
-<table>
-<tr>
-
-<td width="33%" valign="top">
-
-<h3>⌘ Engineering</h3>
-
-<p>
-Software Development<br/>
-System Architecture<br/>
-AI &amp; Automation
-</p>
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3>◇ Product</h3>
-
-<p>
-SaaS Exploration<br/>
-Product Development<br/>
-Build · Test · Iterate
-</p>
-
-</td>
-
-<td width="34%" valign="top">
-
-<h3>↗ Business</h3>
-
-<p>
-Business Strategy<br/>
-Marketing Strategy<br/>
-Startup Growth
-</p>
-
-</td>
-
-</tr>
-</table>
-
----
-
-## `03 / THE PRODUCT LAB`
-
-I'm exploring and building SaaS products around
-**problems worth solving**.
-
-Not every experiment deserves a launch.
-
-Not every idea needs to become a company.
-
-The work is figuring out what matters —
-and building from there.
+<img src="./assets/ezz-lab.gif" width="100%" alt="Animated process from problem to validation, design, build and learning" />
 
 <details>
+<summary><b>+ OPEN THE PRODUCT LAB</b></summary>
+<br />
 
-<summary>
-<strong>＋ &nbsp; OPEN PRODUCT LAB</strong>
-</summary>
+PHASE
 
-<br/>
+QUESTION
 
-```text
-[01] DISCOVER
-      Find problems worth solving.
+Discover
 
-[02] VALIDATE
-      Challenge assumptions.
+Is the problem real?
 
-[03] DESIGN
-      Design the right solution.
+Validate
 
-[04] BUILD
-      Turn ideas into working products.
+Will someone care enough to use or pay for it?
 
-[05] ITERATE
-      Learn. Improve. Repeat.
-```
+Design
 
-As projects are ready to share, this space
-will hold real demos, technical decisions,
-and lessons from the build.
+What is the simplest useful solution?
+
+Build
+
+How can I turn it into reliable software?
+
+Learn
+
+What does real feedback tell us to change?
+
+Products and demos will go here when they're ready. No invented launches or placeholder repositories.
 
 </details>
 
----
+<br />
 
-## `04 / MY DECISION FILTER`
-
-| Before I build, I ask... | Because... |
-| :--- | :--- |
-| **Is this a real problem?** | Interesting tech isn't automatically useful. |
-| **Who is it for?** | Features mean nothing without people. |
-| **Does the business model make sense?** | Great code can't fix broken economics. |
-| **What's the smallest useful version?** | Validate, learn, then scale. |
-
-<br/>
-
-<details>
-
-<summary>
-<strong>＋ &nbsp; ENGINEERING MINDSET</strong>
-</summary>
-
-<br/>
-
-I care about good architecture, but I don't
-confuse complexity with quality.
-
-The best system solves the right problem
-without becoming a problem itself.
-
-</details>
-
-<br/>
-
-<details>
-
-<summary>
-<strong>＋ &nbsp; BUSINESS MINDSET</strong>
-</summary>
-
-<br/>
-
-I connect engineering decisions with positioning,
-business models, distribution, and growth.
-
-The product is only one part of the business.
-
-</details>
-
-<br/>
-
-<details>
-
-<summary>
-<strong>＋ &nbsp; FOUNDER MINDSET</strong>
-</summary>
-
-<br/>
-
-I believe building a company starts long before
-writing the first line of code.
-
-It starts with understanding people,
-recognizing opportunities, and being willing
-to test assumptions.
-
-I don't want to build products just because I can.
-
-I want to build things that deserve to exist.
-
-</details>
-
----
-
-## `05 / HOW I BUILD`
+04 / GITHUB, NOT GUESSWORK
 
 <div align="center">
 
-```text
-     UNDERSTAND
-          |
-          v
-      STRATEGIZE
-          |
-          v
-       ARCHITECT
-          |
-          v
-         BUILD
-          |
-          v
-         TEST
-          |
-          v
-        IMPROVE
-          |
-          v
-        REPEAT
-```
+<img src="./assets/live-stats.png" width="100%" alt="GitHub followers, public repositories, and date of last automatic sync" />
 
-**THINK LIKE A FOUNDER. BUILD LIKE AN ENGINEER.**
+<sub>Data snapshot refreshed daily by GitHub Actions, not a real-time feed.</sub>
 
 </div>
 
----
+<details>
+<summary><b>+ HOW THIS PROFILE UPDATES</b></summary>
+<br />
 
-## `06 / THE BUILDER'S TERMINAL`
+The animated sections are custom GIFs hosted in this repository.
 
-```python
-class Builder:
+GitHub Actions fetches public metrics from GitHub's API every day.
 
-    def __init__(self):
-        self.mindset = "Founder"
-        self.execution = "Engineer"
-        self.focus = [
-            "Software",
-            "SaaS",
-            "AI",
-            "Business Strategy"
-        ]
+The LAST SYNC field shows when those numbers were actually refreshed.
 
-    def build(self, idea):
+Product information stays intentional and editorial: I update it when there's real work to share.
 
-        problem = self.understand(idea)
+</details>
 
-        if not self.validate(problem):
-            return "Rethink the idea."
+<br />
 
-        product = self.develop(problem)
+05 / THE DECISION FILTER
 
-        return self.learn_and_improve(product)
-```
+<details>
+<summary><b>+ ENGINEERING MODE</b></summary>
+<br />
+Good architecture matters, but complexity is not a feature. Build software that solves problems without creating unnecessary ones.
+</details>
 
----
+<details>
+<summary><b>+ BUSINESS MODE</b></summary>
+<br />
+A product needs more than code: positioning, a business model, a path to customers, and a reason people should choose it.
+</details>
 
-## `07 / WHAT'S NEXT?`
+<details>
+<summary><b>+ FOUNDER MODE</b></summary>
+<br />
+Not every idea deserves a startup. I would rather challenge the assumption early than spend months building the wrong thing.
+</details>
 
-I'm currently exploring different ideas,
-building software, and learning more about
-what makes products and businesses successful.
+<br />
 
-Some projects are still experiments.
-
-Others are taking shape.
-
-And some haven't been written yet.
-
-**I'm not interested in building more things.**
-
-**I'm interested in building better things.**
-
----
+06 / LET'S BUILD SOMETHING USEFUL
 
 <div align="center">
 
-### STILL IN BUILD MODE.
+<a href="https://github.com/3zz2004?tab=repositories"><b>EXPLORE THE REPOSITORIES ↗</b></a>
+   •   
+<a href="https://github.com/3zz2004"><b>FOLLOW THE JOURNEY ↗</b></a>
 
-<img
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1100&color=A9D3B4&center=true&vCenter=true&width=650&height=65&lines=Think+Business.;Build+Technology.;Challenge+Ideas.;Create+Value.;The+Best+Is+Yet+To+Be+Built."
-alt="Building Philosophy"
-/>
+<br /><br />
 
-<br/>
+<img src="./assets/ezz-outro.gif" width="100%" alt="Animated closing message: Think like a founder, build like an engineer" />
 
-### THINK BUSINESS. BUILD TECHNOLOGY.
+<sub>EZZ MOHAMED · @3zz2004</sub>
 
-<br/>
-
-<a href="https://github.com/3zz2004?tab=repositories">
-
-<img
-src="https://img.shields.io/badge/EXPLORE_MY_WORK-15251C?style=for-the-badge&logo=github&logoColor=A9D3B4"
-alt="Explore My Work"
-/>
-
-</a>
-
-<br/><br/>
-
-**EZZ MOHAMED**
-
-`SOFTWARE` &nbsp; `PRODUCT` &nbsp; `BUSINESS`
-
-<br/>
-
-*Still learning. Still experimenting. Always building.*
-
-<br/>
-
-**THE BEST IS YET TO BE BUILT.**
-
-</div>
