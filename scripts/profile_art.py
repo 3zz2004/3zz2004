@@ -176,8 +176,10 @@ def heatmap(days: list[dict] | None, error: str = "") -> None:
 
     # Calendar aligned Sunday to Saturday, last 53 columns.
     last_day = date.fromisoformat(days[-1]["date"])
-    first_day = last_day - timedelta(days=370)
-    first_sunday = first_day - timedelta(days=(first_day.weekday()+1)%7)
+    # Anchor the 53-column grid at the start of THIS week, so today
+    # is always visible even if GitHub's calendar begins mid-week.
+    this_sunday = last_day - timedelta(days=(last_day.weekday() + 1) % 7)
+    first_sunday = this_sunday - timedelta(weeks=52)
     lookups = {d["date"]: d for d in days}
     first_months = set()
     total = 0
