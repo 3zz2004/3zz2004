@@ -1,16 +1,40 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**3zz2004/3zz2004** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# EZZ MOHAMED
 
-Here are some ideas to get you started:
+### Software Developer • Founder • SaaS Builder
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**THINK BUSINESS. BUILD TECHNOLOGY.**
+
+Building software that solves real problems.
+
+</div>
+
+---
+
+### ABOUT ME
+
+I work at the intersection of Software Engineering, AI, SaaS, and Business Strategy.
+
+I don't just focus on how to build a product. I care about why it should exist, who needs it, and how it can grow.
+
+### CURRENTLY EXPLORING
+
+- Building and experimenting with SaaS products
+- Software engineering and system architecture
+- AI-powered solutions and automation
+- Product thinking and business strategy
+
+### MY APPROACH
+
+**Problem → Strategy → Architecture → Product → Growth**
+
+Great software starts with the right problem.
+
+---
+
+### LET'S CONNECT
+
+Always open to meaningful conversations about technology, products, and building businesses.
+
+**STILL BUILDING. ALWAYS LEARNING.**
