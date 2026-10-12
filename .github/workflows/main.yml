@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/ezz-portrait.svg assets/ezz-heatmap.svg assets/ezz-stats.svg assets/ezz-identity.png assets/ezz-hero-premium.gif assets/ezz-disciplines-premium.gif assets/ezz-footer.gif
+          git add assets/ezz-portrait.svg assets/ezz-heatmap.svg assets/ezz-stats.svg assets/ezz-identity.png assets/ezz-hero-premium.gif assets/ezz-disciplines-premium.gif assets/ezz-footer.gif assets/ezz-process.gif
           if git diff --cached --quiet; then
             echo "Profile visuals already current."
           else
