@@ -45,5 +45,6 @@ jobs:
             echo "Profile visuals already current."
           else
             git commit -m "chore: refresh animated profile visuals [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
